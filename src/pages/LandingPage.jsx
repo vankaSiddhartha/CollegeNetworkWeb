@@ -25,7 +25,7 @@ export default function LandingPage() {
 const shareText = 'Share this in your college WhatsApp group if you\'re a Thala because Thala for a reason.';
 const handleShare = () => {
   const message = encodeURIComponent(shareText);
-  const whatsappUrl = `https://wa.me/?text="www.google.com"`;
+  const whatsappUrl = `https://wa.me/?text=https://collegenetwork.vercel.app/`;
 
   window.open(whatsappUrl, '_blank');
 };
