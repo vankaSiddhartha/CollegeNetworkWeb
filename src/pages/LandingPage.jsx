@@ -22,7 +22,7 @@ export default function LandingPage() {
   const textColor = useColorModeValue('white', 'gray.800');
   const buttonBg = useColorModeValue('blue.500', 'blue.300');
   const buttonHoverBg = useColorModeValue('blue.600', 'blue.400');
-const shareText = 'Share this in your college WhatsApp group if you\'re a Thala because Thala for a reason.';
+const shareText = 'Share this in your college WhatsApp group if you\'re a Thala's fan because Thala for a reason.';
 const handleShare = () => {
   const message = encodeURIComponent(shareText);
   const whatsappUrl = `https://wa.me/?text=https://collegenetwork.vercel.app/`;
@@ -30,7 +30,7 @@ const handleShare = () => {
   window.open(whatsappUrl, '_blank');
 };
 const openApp = ()=>{
-    window.open("https://www.mediafire.com/file/7of8hxl8cj641ey/app-debug.apk/file",'_blank')
+    window.open("https://drive.google.com/file/d/1HHm5DPMYSnQ_QfMG4X46t8S0rsy40Fm7/view?usp=sharing",'_blank')
 }
 
 
