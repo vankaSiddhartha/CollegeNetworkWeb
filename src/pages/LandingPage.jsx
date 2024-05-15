@@ -22,7 +22,7 @@ export default function LandingPage() {
   const textColor = useColorModeValue('white', 'gray.800');
   const buttonBg = useColorModeValue('blue.500', 'blue.300');
   const buttonHoverBg = useColorModeValue('blue.600', 'blue.400');
-const shareText = 'Share this in your college WhatsApp group if you\'re a Thala's fan because Thala for a reason.';
+const shareText = 'Share this in your college WhatsApp group if you\'re a Thalas fan because Thala for a reason.';
 const handleShare = () => {
   const message = encodeURIComponent(shareText);
   const whatsappUrl = `https://wa.me/?text=https://collegenetwork.vercel.app/`;
